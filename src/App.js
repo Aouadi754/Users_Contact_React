@@ -1,10 +1,19 @@
 import React from 'react';
 import './App.css';
-import Wassim from './wassim'
+import Add from './wassim';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import {Button} from 'react-bootstrap';
+
+
 function App() {
   return (
+    <div className='List'>
     <div className="App">
-     <Wassim/>
+      <Button> Submit</Button>     
+       <Button> Cancel</Button>
+       </div>
+     <Add/>
+   
     </div>
   );
 }
