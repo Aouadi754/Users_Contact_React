@@ -1,9 +1,11 @@
 import React from 'react'
 
-export default function Aouadi() {
+function Aouadi() {
     return (
         <div>
-           <h1>Asbaaa</h1> 
+            Hiiiiiiiiii
         </div>
     )
 }
+
+export default Aouadi

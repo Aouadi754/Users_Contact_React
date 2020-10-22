@@ -1,7 +1,6 @@
 import React from 'react';
-import logo from './logo.svg';
+import Aouadi from './Aouadi';
 import './App.css';
-import Aouadi from './Aouadi'
 
 function App() {
   return (
